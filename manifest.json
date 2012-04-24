@@ -1,0 +1,22 @@
+{
+    "name":"GradeGrub",
+    "version":"1.1.14",
+    "description":"Modifies the Edline 'current assignments report' page, adding easy-to-use grade analysis",
+    "icons":
+    {
+        "128":"icons/icon_128.png",
+        "48":"icons/icon_48.png"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.edline.net/pages/*"
+            ],
+            "js":["scripts/removeHeader.js", "scripts/rebuild.js"],
+            "css":["custom.css"],
+            "run_at":"document_idle"
+        }
+    ],
+    "homepage_url":"https://sites.google.com/site/themegapodeworks/home/gradegrub",
+    "update_url":"https://sites.google.com/site/themegapodeworks/home/gradegrub/grubupdate.xml"    
+}
