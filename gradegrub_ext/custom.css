@@ -1,0 +1,62 @@
+.edits a
+{
+	color:BLACK;
+    text-decoration:none;
+}
+.edits a:hover 
+{
+color:GRAY;
+}
+.modified, .modified a
+{
+    color:BLUE;
+}
+.modified a:hover
+{
+	color:CYAN;
+}
+.revert
+{
+    float:right;
+	width:16px;
+	height:16px;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/revert.png');
+}
+.useradded, .useradded a
+{
+    color:RED;
+}
+.useradded a:hover
+{
+	color:ORANGE;
+}
+.uneditable a, .uneditable a:hover
+{
+	color:BLACK;
+	text-decoration:none;
+	background-position:0px -16px;
+}
+.editText a
+{
+	color:RED;
+}
+.editText a:hover
+{
+	color:ORANGE;
+}
+.delete
+{
+	float:right;
+	width:16px;
+	height:16px;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/delete.png');
+}
+.help
+{
+width:800px;
+border:1px solid black;
+}
+.replacement
+{
+display:inline;
+}
