@@ -4,6 +4,7 @@ if(frameNode != null)
 {
     frameNode.addEventListener("load", launchRebuild, false);
 }
+buildGradeChanger();
 function launchRebuild()
 {
     var i = 0;
